@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+   <lido:lido>
+      <lido:lidoRecID lido:source="ISIL (ISO 15511)/Obj.ID" lido:type="local">de-MUS-018511/2343722</lido:lidoRecID>
+      <!--objectPublishedID exists only if record has been published at SMB-Digital / recherche.smb. Publishing timestamp exists only for records that have been published since 2020-12-14.-->
+      <lido:objectPublishedID lido:source="ISIL (ISO 15511)/Obj.ID/publishing-timeStamp"
+                              lido:type="local">de-MUS-018511/2343722/2022-07-12</lido:objectPublishedID>
+      <lido:category>
+         <lido:conceptID lido:type="URI">http://www.cidoc-crm.org/crm-concepts/E22</lido:conceptID>
+         <lido:term xml:lang="en">Human-Made Object</lido:term>
+      </lido:category>
+      <lido:descriptiveMetadata xml:lang="de">
+         <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap>
+               <lido:objectWorkType lido:type="Sachbegriff">
+                  <lido:conceptID lido:source="RIA:Sachbegriff" lido:type="local">4289348</lido:conceptID>
+                  <lido:term xml:lang="de">Zeichnung</lido:term>
+               </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            <lido:classificationWrap>
+               <lido:classification>
+                  <lido:conceptID lido:source="AAT" lido:type="uri">http://vocab.getty.edu/aat/300417586</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="yes">art</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="europeana:type"><!--europeana:type refers to a resource of the representation in the description of the object. 
+			This seems ontologically wrong. Seems to be remnant of old/first EUROPEANA data structure.-->
+                  <lido:term lido:addedSearchTerm="no">IMAGE</lido:term>
+               </lido:classification>
+               <lido:classification>
+                  <lido:conceptID lido:source="AAT" lido:type="uri">http://vocab.getty.edu/page/aat/300033973</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="yes">drawings (visual works)</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="RIA:Sachbegriff">
+                  <lido:term xml:lang="de">Zeichnung</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="Sammlung">
+                  <lido:term lido:addedSearchTerm="no" xml:lang="de">19.Jh. Zeichnung</lido:term>
+               </lido:classification>
+               <lido:classification><!--SystematikArt-->
+                  <lido:term xml:lang="de">Zeichenkunst</lido:term>
+               </lido:classification>
+            </lido:classificationWrap>
+         </lido:objectClassificationWrap>
+         <lido:objectIdentificationWrap>
+            <lido:titleWrap>
+               <lido:titleSet lido:type="Titel">
+                  <lido:appellationValue xml:lang="de">Olivenbäume vor dem Alpillen-Gebirge</lido:appellationValue>
+               </lido:titleSet>
+               <lido:titleSet lido:type="Titel">
+                  <lido:appellationValue xml:lang="en">Olive trees in front of the Alpilles Mountains</lido:appellationValue>
+               </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap>
+               <lido:repositorySet lido:type="current">
+                  <lido:repositoryName>
+                     <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                     <lido:legalBodyName>
+                        <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                     </lido:legalBodyName>
+                     <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+                  </lido:repositoryName>
+                  <lido:workID lido:type="Inventory number" lido:label="Ident.Nr.">SZ van Gogh 6</lido:workID>
+                  <lido:repositoryLocation lido:politicalEntity="inhabited place">
+                     <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7003712</lido:placeID>
+                     <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2950159</lido:placeID>
+                     <lido:namePlaceSet>
+                        <lido:appellationValue>Berlin</lido:appellationValue>
+                     </lido:namePlaceSet>
+                     <lido:partOfPlace lido:politicalEntity="State">
+                        <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7003670</lido:placeID>
+                        <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2950157</lido:placeID>
+                        <lido:namePlaceSet>
+                           <lido:appellationValue>Berlin</lido:appellationValue>
+                        </lido:namePlaceSet>
+                        <lido:partOfPlace lido:politicalEntity="nation">
+                           <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7000084</lido:placeID>
+                           <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2921044</lido:placeID>
+                           <lido:namePlaceSet>
+                              <lido:appellationValue>Deutschland</lido:appellationValue>
+                           </lido:namePlaceSet>
+                        </lido:partOfPlace>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap>
+               <lido:objectDescriptionSet lido:type="Objektbeschreibung">
+                  <lido:descriptiveNoteValue xml:lang="de" lido:encodinganalog="Online Beschreibung de">1889 war van Goghs Befinden so schlecht, daß er sich freiwillig im Mai in die Nervenheilanstalt von Saint-Paul-de-Mausole bei Saint-Remy begab, wo er zur Ruhe kommen sollte und arbeiten durfte. Die Arbeits- und Lebensgemeinschaft, nach der er sich zeitlebens sehnte, hatte er nicht finden können. Um so wichtiger waren ihm die geistige und materielle Unterstützung seines Bruders Theo. Van Goghs Briefe an seinen Bruder lassen die tiefe Erregung erkennen, die ihn zu fortwährender Arbeit trieb. Förmlich gehetzt von innerer Unruhe, suchte er im Schreiben und Zeichnen Klarheit und Halt für seine in Depression gefangenen Gedanken zu finden. Er hatte sich bereits angewöhnt, dem Bruder nicht nur zu schreiben, sondern ihm und manchmal auch Freunden, an deren Urteil ihm gelegen war, nach seinen Motiven, die er in Öl ausgeführt hatte, Zeichnungen zu schicken. In diesen Blättern setzte er den malerischen Duktus und die Farben so in graphische Systeme von Linien und Punkten um, daß sie in ihrer eigenständigen Ausstrahlung die Gemälde an Vehemenz und Expressivität oft übertreffen. Gemalt hatte er typisch provencalische Motive, Olivenbäume, Zypressen, Weizenfelder, bis Mitte Juli eine neue schwere Attacke die Arbeit bis zum September unmöglich machte. Die Entstehung der Bilder und Zeichnungen bis zu diesem Zeitpunkt spiegeln seine Briefe wider. Noch aus Arles hatte er am 3. Mai 1889 geschrieben: »...Auch denke ich daran, wieder mehr mit der Rohrfeder zu zeichnen, ... das kostet weniger Geld und lenkt genauso ab.« (Briefe 1968, Bd. 4, S. 275). »Ich habe noch eine Landschaft mit Ölbäumen und auch eine neue Studie vom ›Sternenhimmel‹« schrieb er am 19. Juni an den Bruder und am 25. Juni: »...Ich schicke Dir eine Rolle mit Zeichnungen... Die Zeichnungen ›Krankenhaus in Arles‹, ›Trauerbaum im Gras‹, die ›Felder‹ und ›Ölbäume‹ bilden die Fortsetzung zu den früheren aus Montmajour; die anderen sind hastige Studien, die ich im Garten gemacht habe... Wir haben herrlich warme Tage gehabt, und ich habe noch andere Bilder angefangen, so daß zwölf Bilder zu 30 im Werden sind.« (Bd. 4, 5. 290f.) Auch der Schwester teilte er noch Anfang Juli mit: »Ich habe Theo soeben etwa ein Dutzend Zeichnungen geschickt nach Bildern, die ich in Arbeit habe.« (Bd. 5, S. 63). Von diesem Konvolut Zeichnungen befindet sich außer unserer noch diejenige nach dem Gemälde des Schnitters bei aufgehender Sonne, dessen erste Fassung im Juni entstanden war, in der Sammlung der Zeichnungen des Kupferstichkabinetts. Die beeindruckendste der Serie, die Zeichnung zur »Zypresse in der Sternennacht«, die als Kriegsverlust der Bremer Kunsthalle galt, befindet sich noch in russischem Besitz. Das Motiv zu unserer Zeichnung, wie auch zum Gemälde (Whitney Collection New York) fand van Gogh ganz in der Nähe der Heilanstalt. Unter dem Mont Gaussier, der höchsten Erhebung der schroffen, kleinen Bergkette südlich von Saint-Remy, auch Alpines genannt, lag das Asylum von Saint-Paul-de-Mausole. Es bleibt auf der Zeichnung wie im Gemälde hinter den Ölbäumen verborgen. Das Mausoleum, ein antikes Bauwerk, auf das sich der Name des Asyls bezieht, wird von van Gogh nicht in die Komposition einbezogen, obwohl es unweit am Fuße des Gebirges lag. Es ist die reine Landschaft, das Gegensätzliche, aber auch Verbindende zwischen den Formen des Himmels, der Berge, der Ölbäume und des Erdbodens, die ihn fesselten, die seine Fertigkeit anspornten und ihn zu einer Virtuosität gelangen ließen, die in der Leichtigkeit des ornamentalen Flusses der Linien und feinster Beobachtung der Natur, den von ihm so sehr bewunderten Japanern gleichkommt. Darüber hinaus ist sein ganzes Leben in diese Zeichnungen geflossen, »Unendlichkeit und Ewigkeit« durchweben sie, wie er sagte. Sie entstanden genau ein Jahr vor seinem Tod. Text: Marie Ursula Riemann-Reyher in: Das Berliner Kupferstichkabinett. Ein Handbuch zur Sammlung, hg. von Alexander Dückers, 2. Auflage, Berlin 1994, S. 414f., Kat. VII.65 (mit weiterer Literatur)</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+            </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements xml:lang="de">Blattmaß: 47,0 x 62,5 cm</lido:displayObjectMeasurements>
+                  <!--
+						Client response includes only one language for measurementType, either 
+						English or German. So there is no English term available at the moment in RIA.
+					-->
+                  <lido:displayObjectMeasurements xml:lang="en">47.0 x 62.5 cm</lido:displayObjectMeasurements>
+                  <!--Lang attributes are dynamically created here!-->
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType xml:lang="de">Blattmaß</lido:measurementType>
+                        <lido:measurementUnit xml:lang="de">cm</lido:measurementUnit>
+                        <lido:measurementValue xml:lang="de">47 x 62.5</lido:measurementValue>
+                     </lido:measurementsSet>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+         </lido:objectIdentificationWrap>
+         <lido:eventWrap>
+            <lido:eventSet>
+               <lido:displayEvent xml:lang="de">Erwerb</lido:displayEvent>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00001</lido:conceptID>
+                     <lido:term xml:lang="de">Erwerb</lido:term>
+                     <lido:term xml:lang="en">Acquisition (Activity)</lido:term>
+                     <!--beschreibt den Erwerb des Objekts durch die verwaltende Institution-->
+                  </lido:eventType>
+                  <lido:eventDescriptionSet>
+                     <lido:descriptiveNoteValue xml:lang="de" lido:encodinganalog="ErwerbNotizAusgabe">angekauft auf der Auktion Paul Graupe am 26.4.1935, am 4.8.1999 in Privatbesitz restituiert, am 7.12.1999 bei Sotheby's London (Los 34) für 16,4 Mio DM versteigert</lido:descriptiveNoteValue>
+                  </lido:eventDescriptionSet>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:displayEvent xml:lang="de">Herstellung</lido:displayEvent>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+                     <lido:term xml:lang="de">Herstellung</lido:term>
+                     <lido:term xml:lang="en">Production</lido:term>
+                  </lido:eventType>
+                  <lido:eventActor>
+                     <lido:displayActorInRole>Vincent van Gogh (1853 - 1890), Zeichner</lido:displayActorInRole>
+                     <lido:actorInRole>
+                        <lido:actor lido:type="Person">
+                           <lido:actorID lido:type="local" lido:source="RIA/SMB">200094</lido:actorID>
+                           <lido:actorID lido:type="URI" lido:source="GND">http://d-nb.info/gnd/118540416</lido:actorID>
+                           <lido:nameActorSet>
+                              <lido:appellationValue lido:pref="preferred">Vincent van Gogh</lido:appellationValue>
+                           </lido:nameActorSet>
+                           <lido:nationalityActor>
+                              <lido:term>niederländisch</lido:term>
+                           </lido:nationalityActor>
+                           <lido:vitalDatesActor>
+                              <lido:earliestDate>1853-03-30</lido:earliestDate>
+                              <lido:latestDate>1890-07-29</lido:latestDate>
+                           </lido:vitalDatesActor>
+                           <lido:genderActor xml:lang="de">männlich</lido:genderActor>
+                        </lido:actor>
+                        <lido:roleActor>
+                           <lido:term lido:encodinganalog="RIA:Rolle" xml:lang="de">Zeichner</lido:term>
+                        </lido:roleActor>
+                        <lido:attributionQualifierActor xml:lang="de">Herstellung</lido:attributionQualifierActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <lido:eventDate>
+                     <lido:displayDate xml:lang="de">1889</lido:displayDate>
+                     <lido:displayDate xml:lang="en">1889</lido:displayDate>
+                     <lido:date>
+                        <lido:earliestDate>1889</lido:earliestDate>
+                     </lido:date>
+                  </lido:eventDate>
+                  <lido:eventMaterialsTech>
+                     <lido:displayMaterialsTech xml:lang="de">Rohrfeder in brauner und roter Tusche</lido:displayMaterialsTech>
+                     <lido:displayMaterialsTech xml:lang="en">reed pen, brown and red ink</lido:displayMaterialsTech>
+                  </lido:eventMaterialsTech>
+               </lido:event>
+            </lido:eventSet>
+         </lido:eventWrap>
+         <lido:objectRelationWrap>
+            <lido:relatedWorksWrap>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Kat. Berlin 1994, Handbuch, S. 414-415, Abb. S. 414, Kat.-Nr. Kat. VII.65</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">229943</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Erpel 1990, S. 176, Kat.-Nr. 112</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">551389</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Neumannová 1987, S. 50, Abb. S. Abb. 53</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">551390</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+            </lido:relatedWorksWrap>
+         </lido:objectRelationWrap>
+      </lido:descriptiveMetadata>
+      <lido:administrativeMetadata xml:lang="de">
+         <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                  </lido:legalBodyName>
+                  <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+               </lido:rightsHolder>
+            </lido:rightsWorkSet>
+         </lido:rightsWorkWrap>
+         <lido:recordWrap>
+            <lido:recordID lido:type="local" lido:source="SMB/Obj.ID">de-MUS-018511/2343722</lido:recordID>
+            <lido:recordType>
+               <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00141</lido:conceptID>
+               <lido:term xml:lang="de">Einzelobjekt</lido:term>
+            </lido:recordType>
+            <lido:recordSource lido:type="Institution">
+               <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+               <lido:legalBodyName>
+                  <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+               </lido:legalBodyName>
+               <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+            </lido:recordSource>
+            <lido:recordRights>
+               <lido:rightsType>
+                  <lido:conceptID lido:source="CC" lido:type="URI">https://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="no">No Copyright</lido:term>
+               </lido:rightsType>
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                  </lido:legalBodyName>
+                  <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+               </lido:rightsHolder>
+            </lido:recordRights>
+            <lido:recordInfoSet>
+               <lido:recordInfoLink lido:formatResource="html">https://id.smb.museum/object/2343722</lido:recordInfoLink>
+            </lido:recordInfoSet>
+         </lido:recordWrap>
+      </lido:administrativeMetadata>
+   </lido:lido>
+</lido:lidoWrap>

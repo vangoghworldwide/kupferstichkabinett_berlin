@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+   <lido:lido>
+      <lido:lidoRecID lido:source="ISIL (ISO 15511)/Obj.ID" lido:type="local">de-MUS-018511/1059178</lido:lidoRecID>
+      <!--objectPublishedID exists only if record has been published at SMB-Digital / recherche.smb. Publishing timestamp exists only for records that have been published since 2020-12-14.-->
+      <lido:objectPublishedID lido:source="ISIL (ISO 15511)/Obj.ID/publishing-timeStamp"
+                              lido:type="local">de-MUS-018511/1059178</lido:objectPublishedID>
+      <lido:category>
+         <lido:conceptID lido:type="URI">http://www.cidoc-crm.org/crm-concepts/E22</lido:conceptID>
+         <lido:term xml:lang="en">Human-Made Object</lido:term>
+      </lido:category>
+      <lido:descriptiveMetadata xml:lang="de">
+         <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap>
+               <lido:objectWorkType lido:type="Sachbegriff">
+                  <lido:conceptID lido:source="RIA:Sachbegriff" lido:type="local">4289348</lido:conceptID>
+                  <lido:term xml:lang="de">Zeichnung</lido:term>
+               </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            <lido:classificationWrap>
+               <lido:classification>
+                  <lido:conceptID lido:source="AAT" lido:type="uri">http://vocab.getty.edu/aat/300417586</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="yes">art</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="europeana:type"><!--europeana:type refers to a resource of the representation in the description of the object. 
+			This seems ontologically wrong. Seems to be remnant of old/first EUROPEANA data structure.-->
+                  <lido:term lido:addedSearchTerm="no">IMAGE</lido:term>
+               </lido:classification>
+               <lido:classification>
+                  <lido:conceptID lido:source="AAT" lido:type="uri">http://vocab.getty.edu/page/aat/300033973</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="yes">drawings (visual works)</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="RIA:Sachbegriff">
+                  <lido:term xml:lang="de">Zeichnung</lido:term>
+               </lido:classification>
+               <lido:classification lido:type="Sammlung">
+                  <lido:term lido:addedSearchTerm="no" xml:lang="de">19.Jh. Zeichnung</lido:term>
+               </lido:classification>
+               <lido:classification><!--SystematikArt-->
+                  <lido:term xml:lang="de">Zeichenkunst</lido:term>
+               </lido:classification>
+            </lido:classificationWrap>
+         </lido:objectClassificationWrap>
+         <lido:objectIdentificationWrap>
+            <lido:titleWrap>
+               <lido:titleSet lido:type="Titel">
+                  <lido:appellationValue xml:lang="de">Kornfeld mit Mäher</lido:appellationValue>
+               </lido:titleSet>
+               <lido:titleSet lido:type="Abweichender Titel">
+                  <lido:appellationValue xml:lang="de">Kornfeld, der Schnitter (Le fauchair)</lido:appellationValue>
+               </lido:titleSet>
+               <lido:titleSet lido:type="Titel">
+                  <lido:appellationValue xml:lang="en">Reaper with Rising Sun</lido:appellationValue>
+               </lido:titleSet>
+               <lido:titleSet lido:type="Titel">
+                  <lido:appellationValue xml:lang="fr">Le fauchair</lido:appellationValue>
+               </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap>
+               <lido:repositorySet lido:type="current">
+                  <lido:repositoryName>
+                     <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                     <lido:legalBodyName>
+                        <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                     </lido:legalBodyName>
+                     <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+                  </lido:repositoryName>
+                  <lido:workID lido:type="Inventory number" lido:label="Ident.Nr.">SZ van Gogh 4</lido:workID>
+                  <lido:repositoryLocation lido:politicalEntity="inhabited place">
+                     <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7003712</lido:placeID>
+                     <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2950159</lido:placeID>
+                     <lido:namePlaceSet>
+                        <lido:appellationValue>Berlin</lido:appellationValue>
+                     </lido:namePlaceSet>
+                     <lido:partOfPlace lido:politicalEntity="State">
+                        <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7003670</lido:placeID>
+                        <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2950157</lido:placeID>
+                        <lido:namePlaceSet>
+                           <lido:appellationValue>Berlin</lido:appellationValue>
+                        </lido:namePlaceSet>
+                        <lido:partOfPlace lido:politicalEntity="nation">
+                           <lido:placeID lido:type="URI" lido:source="http://vocab.getty.edu/tgn/">http://vocab.getty.edu/tgn/7000084</lido:placeID>
+                           <lido:placeID lido:type="URI" lido:source="http://sws.geonames.org/">http://sws.geonames.org/2921044</lido:placeID>
+                           <lido:namePlaceSet>
+                              <lido:appellationValue>Deutschland</lido:appellationValue>
+                           </lido:namePlaceSet>
+                        </lido:partOfPlace>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap/>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements xml:lang="de">Blattmaß: 45,5 x 58,2 cm</lido:displayObjectMeasurements>
+                  <!--
+						Client response includes only one language for measurementType, either 
+						English or German. So there is no English term available at the moment in RIA.
+					-->
+                  <lido:displayObjectMeasurements xml:lang="en">45.5 x 58.2 cm</lido:displayObjectMeasurements>
+                  <!--Lang attributes are dynamically created here!-->
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType xml:lang="de">Blattmaß</lido:measurementType>
+                        <lido:measurementUnit xml:lang="de">cm</lido:measurementUnit>
+                        <lido:measurementValue xml:lang="de">45.5 x 58.2</lido:measurementValue>
+                     </lido:measurementsSet>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+         </lido:objectIdentificationWrap>
+         <lido:eventWrap>
+            <lido:eventSet>
+               <lido:displayEvent xml:lang="de">Erwerb</lido:displayEvent>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00001</lido:conceptID>
+                     <lido:term xml:lang="de">Erwerb</lido:term>
+                     <lido:term xml:lang="en">Acquisition (Activity)</lido:term>
+                     <!--beschreibt den Erwerb des Objekts durch die verwaltende Institution-->
+                  </lido:eventType>
+                  <lido:eventDescriptionSet>
+                     <lido:descriptiveNoteValue xml:lang="de" lido:encodinganalog="ErwerbNotizAusgabe">im Juli 1928 von der Kunsthandlung Otto Waiker, Berlin, angekauft</lido:descriptiveNoteValue>
+                  </lido:eventDescriptionSet>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:displayEvent xml:lang="de">Herstellung</lido:displayEvent>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+                     <lido:term xml:lang="de">Herstellung</lido:term>
+                     <lido:term xml:lang="en">Production</lido:term>
+                  </lido:eventType>
+                  <lido:eventActor>
+                     <lido:displayActorInRole>Vincent van Gogh (1853 - 1890), Zeichner</lido:displayActorInRole>
+                     <lido:actorInRole>
+                        <lido:actor lido:type="Person">
+                           <lido:actorID lido:type="local" lido:source="RIA/SMB">200094</lido:actorID>
+                           <lido:actorID lido:type="URI" lido:source="GND">http://d-nb.info/gnd/118540416</lido:actorID>
+                           <lido:nameActorSet>
+                              <lido:appellationValue lido:pref="preferred">Vincent van Gogh</lido:appellationValue>
+                           </lido:nameActorSet>
+                           <lido:nationalityActor>
+                              <lido:term>niederländisch</lido:term>
+                           </lido:nationalityActor>
+                           <lido:vitalDatesActor>
+                              <lido:earliestDate>1853-03-30</lido:earliestDate>
+                              <lido:latestDate>1890-07-29</lido:latestDate>
+                           </lido:vitalDatesActor>
+                           <lido:genderActor xml:lang="de">männlich</lido:genderActor>
+                        </lido:actor>
+                        <lido:roleActor>
+                           <lido:term lido:encodinganalog="RIA:Rolle" xml:lang="de">Zeichner</lido:term>
+                        </lido:roleActor>
+                        <lido:attributionQualifierActor xml:lang="de">Herstellung</lido:attributionQualifierActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <lido:eventDate>
+                     <lido:displayDate xml:lang="de">1889</lido:displayDate>
+                     <lido:displayDate xml:lang="en">1889</lido:displayDate>
+                     <lido:date>
+                        <lido:earliestDate>1889</lido:earliestDate>
+                     </lido:date>
+                  </lido:eventDate>
+                  <lido:eventMaterialsTech>
+                     <lido:displayMaterialsTech xml:lang="de">Rohrfeder, Tusche</lido:displayMaterialsTech>
+                     <lido:displayMaterialsTech xml:lang="en">reed pen, India ink</lido:displayMaterialsTech>
+                     <lido:materialsTech>
+                        <lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00131">
+                           <lido:conceptID lido:type="internal"/>
+                           <lido:term xml:lang="de"/>
+                        </lido:termMaterialsTech>
+                     </lido:materialsTech>
+                  </lido:eventMaterialsTech>
+               </lido:event>
+            </lido:eventSet>
+         </lido:eventWrap>
+         <lido:objectRelationWrap>
+            <lido:relatedWorksWrap>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.-Kat. Berlin 2005, S. 351, Kat.-Nr. 21</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">214247</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. Otterloo/Amsterdam 1990 a, S. 312, Abb. S. 312, Kat.-Nr. 234</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">412400</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. Bremen 2002, S. 21, 88-89, Abb. S. 21, Abb. 1, Kat.-Nr. 21</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">412409</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. Bremen 2002 (engl.), S. 21, 88-89, Abb. S. 21, Abb. 1, Kat.-Nr. 21</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">526387</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. New York 1986/1987, S. 134-135, Abb. S. 135, Abb. 29</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">526388</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. Berlin 1927, Abb. S. o. P., Kat.-Nr. 93</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">526391</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Ausst.Kat. Hamburg 2002</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">526392</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Ausst.Kat. Frankfurt am Main 2019/20</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">527387</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Ausst.Kat. Otterloo/Amsterdam 1990 b, S. 220, Abb. S. 220, Abb. 95a, Kat.-Nr. unter Kat.Nr. 98</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">527392</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Objekt: Erpel 1990, S. 178, Kat.-Nr. 115</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="local" lido:source="LIT.ID">551389</lido:objectID>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term xml:lang="en">is documented in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+            </lido:relatedWorksWrap>
+         </lido:objectRelationWrap>
+      </lido:descriptiveMetadata>
+      <lido:administrativeMetadata xml:lang="de">
+         <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                  </lido:legalBodyName>
+                  <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+               </lido:rightsHolder>
+            </lido:rightsWorkSet>
+         </lido:rightsWorkWrap>
+         <lido:recordWrap>
+            <lido:recordID lido:type="local" lido:source="SMB/Obj.ID">de-MUS-018511/1059178</lido:recordID>
+            <lido:recordType>
+               <lido:conceptID lido:type="URI" lido:source="LIDO-Terminologie">http://terminology.lido-schema.org/lido00141</lido:conceptID>
+               <lido:term xml:lang="de">Einzelobjekt</lido:term>
+            </lido:recordType>
+            <lido:recordSource lido:type="Institution">
+               <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+               <lido:legalBodyName>
+                  <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+               </lido:legalBodyName>
+               <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+            </lido:recordSource>
+            <lido:recordRights>
+               <lido:rightsType>
+                  <lido:conceptID lido:source="CC" lido:type="URI">https://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+                  <lido:term xml:lang="en" lido:addedSearchTerm="no">No Copyright</lido:term>
+               </lido:rightsType>
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                  </lido:legalBodyName>
+                  <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+               </lido:rightsHolder>
+            </lido:recordRights>
+            <lido:recordInfoSet>
+               <lido:recordInfoLink lido:formatResource="html">https://id.smb.museum/object/1059178</lido:recordInfoLink>
+            </lido:recordInfoSet>
+         </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet lido:sortorder="1">
+               <lido:resourceID lido:label="Bild" lido:type="local" lido:source="SMB/ObjID/AssetID">de-MUS-018511/1059178/5022232</lido:resourceID>
+               <lido:resourceRepresentation lido:type="Provided image">
+                  <lido:linkResource lido:formatResource="image/jpeg">https://id.smb.museum/digital-asset/5022232</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceType><!--type="europeana:type"-->
+                  <lido:term xml:lang="EN">image</lido:term>
+               </lido:resourceType>
+               <lido:resourceSource lido:type="Fotograf">
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Jörg P. Anders</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+               <lido:rightsResource>
+                  <lido:rightsType>
+                     <lido:conceptID lido:source="CC" lido:type="URI">https://creativecommons.org/publicdomain/mark/1.0/</lido:conceptID>
+                     <lido:term lido:addedSearchTerm="no">Public Domain Mark 1.0</lido:term>
+                  </lido:rightsType>
+                  <lido:rightsHolder>
+                     <lido:legalBodyID lido:type="concept-ID" lido:source="ISIL (ISO 15511)">de-MUS-018511</lido:legalBodyID>
+                     <lido:legalBodyName>
+                        <lido:appellationValue>Kupferstichkabinett, Staatliche Museen zu Berlin</lido:appellationValue>
+                     </lido:legalBodyName>
+                     <lido:legalBodyWeblink>https://www.smb.museum/museen-einrichtungen/kupferstichkabinett/home/</lido:legalBodyWeblink>
+                  </lido:rightsHolder>
+                  <lido:creditLine>Staatliche Museen zu Berlin, Kupferstichkabinett / Jörg P. Anders</lido:creditLine>
+               </lido:rightsResource>
+            </lido:resourceSet>
+         </lido:resourceWrap>
+      </lido:administrativeMetadata>
+   </lido:lido>
+</lido:lidoWrap>
